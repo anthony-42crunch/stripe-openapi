@@ -1,0 +1,5 @@
+audit:
+  branches:
+    master:
+      api_tags:
+        - 'API_Governance:Documentation_Quality'
