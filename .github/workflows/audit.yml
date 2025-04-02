@@ -3,11 +3,11 @@ name: "42Crunch API Security Audit"
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths: openapi/*
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths: openapi/*
 
 env:
